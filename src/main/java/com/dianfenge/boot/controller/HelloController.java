@@ -19,6 +19,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String handle01(){
         System.out.println("test");
+        System.out.println("fsf");
         return "hello,SpringBoot!test2 hot-fix,test";
     }
 }
