@@ -18,6 +18,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String handle01(){
-        return "hello,SpringBoot!test2";
+        return "hello,SpringBoot!test2 hot-fix";
     }
 }
