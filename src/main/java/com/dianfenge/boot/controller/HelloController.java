@@ -18,6 +18,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String handle01(){
+        System.out.println("test");
         return "hello,SpringBoot!test2 hot-fix,test";
     }
 }
